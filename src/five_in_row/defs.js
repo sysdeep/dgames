@@ -1,0 +1,1 @@
+export const SIZES = [10, 15, 20];

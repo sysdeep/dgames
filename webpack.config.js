@@ -5,12 +5,10 @@ var webpack = require('webpack');
 
 var config = {
 	entry: {
-		"app"	: path.join(__dirname, "src", "app.js"),
-        // "gsongs"	: path.join(__dirname, "app", "static", "srcv", "gsongs", "app.js"),
-        // "todo"		: path.join(__dirname, "app", "static", "srcv", "todo", "main.js"),
-        // "chords"	: path.join(__dirname, "app", "static", "srcv", "chords", "main.js"),
+		"app"			: path.join(__dirname, "src", "app.js"),
+		"five_in_row"	: path.join(__dirname, "src", "five_in_row", "app.js"),
         
-		"vendor"	: ["vue"]
+		"vendor"		: ["vue"]
 		
 	},
 	output: {
